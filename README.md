@@ -2,7 +2,7 @@
 
 [Deployed Site](https://obscure-wave-46979.herokuapp.com/)
 
-[image]
+![image](https://user-images.githubusercontent.com/80643240/126051504-4099a205-2536-4290-9318-86dc5daf3ed6.png)
 
 ## Description
 Handy note taking application used to create to-do list items with the ability to add and delete. 
