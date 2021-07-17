@@ -8,16 +8,15 @@ module.exports = (app) => {
 
     app.post('/api/notes', (req, res) => {
         const newNote = req.body;
-        // const id = generateUniqueId ({
-        //     length: 5,
-        //     useLetters: true,
-        //     useNumbers: false
-        // });
-
-        // newNote.routeName = newNote.name.replace(id);
-        // console.log(newNote);
+        const id = generateUniqueId ({
+            length: 5,
+            useLetters: true,
+            useNumbers: false
+        });
+        console.log(id);
 
         noteData.push(newNote);
         res.json(newNote);
+
     });
 };
